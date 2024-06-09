@@ -66,12 +66,17 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
 flutter_native_splash:
-  android: false
+  android: true
   ios: true
   web: false
   color: '##FFFFFF'
   fullscreen: true
-  image: 'assets/samoyed_logo.jpg'
+  image: assets/samoyed_logo.jpg
+
+  android_12:
+    image: assets/samoyed_logo_android_12.png
+    color: '##FFFFFF'
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
